@@ -1,6 +1,10 @@
 server:
  port: ${port}
 
+spring:
+  application:
+    name: ${artifactId}
+
 management:
   endpoints:
     web:
